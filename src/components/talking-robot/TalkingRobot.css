@@ -1,0 +1,31 @@
+.talkingRobot {
+  display: flex;
+  align-items: flex-start;
+  color: #080106;
+}
+.robot {
+  display: block;
+  width: 100px;
+  height: auto;
+  transform: scaleX(-1);
+  margin-top: -10px;
+}
+.answer {
+  background-color: #fff;
+  padding: 20px;
+  margin: 7px 0 0 10px;
+  border-radius: 15px;
+  text-align: left;
+  font-size: 20px;
+}
+
+.answer:nth-child(1) {
+  margin: 14px 0 0 10px;
+}
+.wrap {
+  display: flex;
+  flex-direction: column;
+}
+.mess-robot {
+  color: #01a5df;
+}
